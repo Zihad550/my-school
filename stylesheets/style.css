@@ -17,6 +17,11 @@ section {
   background: #abd9cd;
 }
 .notice-board-wrapper {
-  background: url(/images/notice-bg.jpg) center no-repeat;
-  background-size: cover;
+  max-height: 10rem;
+  max-width: 74%;
+  overflow-y: scroll;
+}
+
+.notice {
+  border: 1px solid black;
 }
