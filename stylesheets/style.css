@@ -5,7 +5,6 @@
 section {
   margin: 2rem 0;
 }
-
 /* utilities */
 
 .title {
@@ -24,4 +23,30 @@ section {
 
 .notice {
   border: 1px solid black;
+}
+
+/* branch */
+.branch {
+  border-radius: 10px !important;
+}
+.branch img {
+  border-radius: 10px;
+}
+
+/* latest news */
+.load-more-news-icon-wrapper {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.load-more-news-icon-wrapper svg {
+  padding: 5px;
+}
+
+.load-more-news-icon-wrapper:hover {
+  background-color: aquamarine;
+  cursor: pointer;
 }
