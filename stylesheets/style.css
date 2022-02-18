@@ -1,0 +1,22 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&display=swap");
+
+/* common css */
+section {
+  margin: 2rem 0;
+}
+
+/* utilities */
+
+.title {
+  font-family: "Lobster", cursive;
+}
+
+/* notice */
+.notice-section-contianer {
+  background: #abd9cd;
+}
+.notice-board-wrapper {
+  background: url(/images/notice-bg.jpg) center no-repeat;
+  background-size: cover;
+}
