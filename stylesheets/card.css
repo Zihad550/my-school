@@ -397,16 +397,16 @@
 }
 
 .news-1 .wrapper {
-  background: url(/images/vaccine.jpg) 20% 1% / cover no-repeat;
+  background: url(../images/vaccine.jpg) 20% 1% / cover no-repeat;
 }
 .news-2 .wrapper {
-  background: url(/images/vaccine.jpg) 20% 1% / cover no-repeat;
+  background: url(../images/vaccine.jpg) 20% 1% / cover no-repeat;
 }
 .news-3 .wrapper {
-  background: url(/images/vaccine.jpg) 20% 1% / cover no-repeat;
+  background: url(../images/vaccine.jpg) 20% 1% / cover no-repeat;
 }
 .news-4 .wrapper {
-  background: url(/images/vaccine.jpg) 20% 1% / cover no-repeat;
+  background: url(../images/vaccine.jpg) 20% 1% / cover no-repeat;
 }
 .news .date {
   position: absolute;
