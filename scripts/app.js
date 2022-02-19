@@ -42,8 +42,8 @@ $(".gallery-slider").slick({
 });
 
 $(function () {
-  $(".material-card > .mc-btn-action").click(function () {
-    var card = $(this).parent(".material-card");
+  $(".teacher-card > .mc-btn-action").click(function () {
+    var card = $(this).parent(".teacher-card");
     var icon = $(this).children("i");
     icon.addClass("fa-spin-fast");
 
