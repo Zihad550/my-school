@@ -16,6 +16,21 @@ section {
   font-family: "Lobster", cursive;
 }
 
+/* navbar */
+
+@media only screen and (min-width: 990px) {
+  #navbar {
+    margin-top: -91px;
+    background: #00000026;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  #navbar ul li a {
+    font-size: 1.2rem;
+  }
+}
+
 /* banner css start */
 .carousel-img {
   height: 800px;
@@ -113,29 +128,6 @@ section {
 }
 
 /* teachers */
-.social-link {
-  width: 30px;
-  height: 30px;
-  border: 1px solid #ddd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #666;
-  border-radius: 50%;
-  transition: all 0.3s;
-  font-size: 0.9rem;
-}
-
-.social-link:hover,
-.social-link:focus {
-  background: #ddd;
-  text-decoration: none;
-  color: #555;
-}
-
-.progress {
-  height: 10px;
-}
 
 /* footer */
 .footer_area {
